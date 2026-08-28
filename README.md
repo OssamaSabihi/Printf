@@ -37,9 +37,3 @@ This project implements a custom format parser, variadic argument handling (`va_
 - `gcc` or `clang` compiler
 - Standard C library headers (`<stdarg.h>`, `<unistd.h>`, `<stdlib.h>`)
 
-### 2. Compilation
-Compile your code alongside `_printf` using `gcc`:
-
-```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o printf_demo
-
